@@ -22,8 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'automationread@gmail.com';        // Your Gmail
-        $mail->Password = 'mqqjzpxuvixhtqms';                // Your App password
+        $mail->Username = 'your_gmail@gmail.com';        // Your Gmail
+        $mail->Password = 'password';                // Your App password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
@@ -49,3 +49,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 }
 ?>
+
